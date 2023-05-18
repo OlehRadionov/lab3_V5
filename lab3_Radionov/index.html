@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab_3</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <section class="wrapper">
+        <div class="image">
+            <img src="./img/people.jpg" alt="People">
+        </div>
+
+        <div class="form">
+            <div class="menu-header">
+                <div class="menu-btn">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="welcome">
+                <p class="welcome_header">Welcome to Crowdside</p>
+                <p id="Welcome_black" class="welcome_descript">
+                    Let`s get you all set up so you can verify your nonprofit and begin setting up your first campaign!
+                </p>
+            </div>
+
+            <div class="login">
+                <p>Already have an account? <a href="#">Log in.</a></p>
+            </div>
+
+            <form action="#" method="post">
+                <div class="one">
+                    <div>
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="name" placeholder="Peter">
+                    </div>
+
+                    <div>
+                        <label for="surname">Last Name</label>
+                        <input type="text" id="surname" name="surname" placeholder="Deltondo">
+                    </div>
+                </div>
+
+                <div class="two">
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+38(999)99-99-999">
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="pdeltondo@gmail.com">
+                    </div>
+                </div>
+
+                <div class="three">
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="········">
+                    </div>
+
+                    <div>
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="········">
+                    </div>
+                </div>
+
+                <label class="check">
+                    <input type="checkbox" name="checkbox1" id="checkbox1"> 
+                    Yes, I want to receive. Crowdrise`s emails 
+                </label>
+                <br/>
+                <label class="check">
+                    <input type="checkbox" name="checkbox2" id="checkbox2"> 
+                    I agree to the <strong>Terms, Privacy Policy</strong> and <strong>Fees</strong> 
+                </label>
+            </form>
+
+            <button class="btn" type="submit">Sign up</button>
+
+            <div class="no_work">
+                <p>Don`t work for a nonprofit? <a href="#">You can still fundraice for one.</a> </p>
+            </div>
+
+            <div class="language">
+                <select name="language" id="language">
+                    <option value="value1">Ukraine</option>
+                    <option value="value2" selected>English</option>
+                    <option value="value3">Italy</option>
+                </select>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
